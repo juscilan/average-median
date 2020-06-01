@@ -1,0 +1,68 @@
+{
+  "_from": "average-median",
+  "_id": "average-median@1.2.3",
+  "_inBundle": false,
+  "_integrity": "sha1-HVJkifCRXT/tQO5QP7sH1dIwsz8=",
+  "_location": "/average-median",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "average-median",
+    "name": "average-median",
+    "escapedName": "average-median",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/average-median/-/average-median-1.2.3.tgz",
+  "_shasum": "1d526489f0915d3fed40ee503fbb07d5d230b33f",
+  "_spec": "average-median",
+  "_where": "/Users/juscilanmoreto/projects/mongo/node_modules/mongo-to-mongo",
+  "author": {
+    "name": "Juscilan Moreto juscilan.com"
+  },
+  "bugs": {
+    "url": "https://github.com/juscilan/average-median/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "eslint": "^4.9.0"
+  },
+  "deprecated": false,
+  "description": "app for average median",
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-cli": "^6.26.0",
+    "babel-jest": "^21.2.0",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-es2015": "^6.24.1",
+    "jest": "^21.2.1",
+    "regenerator-runtime": "^0.11.0"
+  },
+  "homepage": "https://github.com/juscilan/average-median#readme",
+  "keywords": [
+    "math",
+    "calc",
+    "average",
+    "median",
+    "mean"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "name": "average-median",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juscilan/average-median.git"
+  },
+  "scripts": {
+    "babel": "babel-node src --out-dir lib",
+    "build": "babel src --out-dir lib",
+    "test": "jest"
+  },
+  "version": "1.2.3"
+}
